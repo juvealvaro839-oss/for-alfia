@@ -221,7 +221,7 @@ function animateFlowerScene() {
         
         fctx.font = "normal 18px Arial, sans-serif";
         fctx.fillStyle = `rgba(255, 255, 255, ${textOpacity})`; 
-        fctx.fillText("Semoga hari-harimu selalu penuh dengan kebahagiaan dan sukses selalu apapun yang kamu impikan.", flowerCanvas.width / 2, flowerCanvas.height / 2 + 170);
+        fctx.fillText("Semoga kamu sukses selalu & got everything u dream for.", flowerCanvas.width / 2, flowerCanvas.height / 2 + 170);
         
 
         // 3. TAMPILKAN TEKS BY: ALVARO (Sudah diganti jadi Putih)
