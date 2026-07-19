@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Alfia ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CANVAS UTAMA -->
+    <canvas id="matrix"></canvas>
+    <canvas id="heart"></canvas>
+
+    <!-- KELOPAK SAKURA -->
+    <div id="sakura"></div>
+
+    <!-- ===========================
+         HALAMAN PERTAMA (SCENE 1)
+    ============================ -->
+    <div class="container">
+        <div class="photo">
+            <!-- Menggunakan foto Alfia yang Anda berikan -->
+            <img src="https://imagizer.imageshack.com/img922/4684/IRZ3dO.jpg" alt="Foto Alfia">
+        </div>
+        <h1>Congratulations Alfia ❤️</h1>
+        <button id="nextBtn" class="next-btn">KLIK ❤️</button>
+        <p id="typing"></p>
+    </div>
+
+    <!-- ===========================
+         HALAMAN SURPRISE (SCENE 2)
+    ============================ -->
+    <div id="surprise" style="display: none;">
+        <canvas id="flowerCanvas"></canvas>
+        <div class="surprise-content">
+            <!-- Tag H1 sudah ditutup dengan benar dan siap diisi teks romantis -->
+            <h1 id="surpriseText"></h1>
+        </div>
+    </div>
+
+    <!-- AUDIO BACKSOUND -->
+    <audio id="music" loop>
+        <source src="mysong.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="main.js"></script>
+</body>
+</html>
